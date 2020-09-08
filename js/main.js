@@ -1,7 +1,7 @@
 // using api
 function generate(){
-    md5 = document.getElementById("md5").value;
-    url = "https://md5calc.com/hash/md5.json/" + md5;
+    const md5 = document.getElementById("md5").value;
+    const url = "https://md5calc.com/hash/md5.json/" + md5;
     $.ajax({
         url: url,
         type: "GET",
